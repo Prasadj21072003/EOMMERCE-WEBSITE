@@ -1,0 +1,212 @@
+.singleproduct {
+  position: relative;
+  top: 50px;
+  width: 92.3%;
+  height: 100vh;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  // border: 2px solid blue;
+  overflow: hidden;
+
+  .container {
+    width: 100%;
+    height: 100%;
+    //   border: 2px solid blue;
+    display: flex;
+    gap: 20px;
+
+    .col {
+      height: 80%;
+      width: 10%;
+      //  border: 2px solid black;
+
+      .image1 {
+        background-color: blue;
+        height: 22%;
+        width: 100%;
+        margin-bottom: 20px;
+
+        img {
+          width: 100%;
+          height: 100%;
+          cursor: pointer;
+
+          object-fit: cover;
+        }
+      }
+      .image2 {
+        background-color: red;
+        height: 22%;
+        width: 100%;
+
+        img {
+          width: 100%;
+          height: 100%;
+          cursor: pointer;
+
+          object-fit: cover;
+        }
+      }
+    }
+    .mediumcol {
+      height: 80%;
+      width: 40%;
+      background-color: yellow;
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+    .largecol {
+      height: 80%;
+      width: 50%;
+      margin-left: 10px;
+      //border: 2px solid black;
+      //  background-color: green;
+
+      .upperdiv {
+        width: 100%;
+        height: 30%;
+        //   border: 2px solid black;
+
+        .price {
+          margin-top: 15px;
+          margin-bottom: 15px;
+
+          span {
+            font-size: 25px;
+            color: blue;
+          }
+        }
+        .desc {
+          p {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+    .add {
+      width: 100%;
+      height: 30%;
+      //  border: 2px solid red;
+
+      .number {
+        margin-top: 25px;
+        margin-bottom: 10px;
+        //   background-color: blue;
+        width: 15%;
+        height: 20%;
+        display: flex;
+
+        .icons {
+          width: 35%;
+          height: 100%;
+          background-color: aqua;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .icon {
+            font-size: 13px;
+          }
+        }
+
+        .span {
+          width: 30%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          span {
+            font-size: 20px;
+          }
+        }
+      }
+      .button {
+        margin-top: 22px;
+        margin-bottom: 10px;
+        width: 28%;
+        height: auto;
+        //  background-color: blue;
+
+        button {
+          width: 100%;
+          height: 100%;
+          background-color: blueviolet;
+          border: none;
+          color: white;
+          font-size: 12px;
+          padding: 8px 10px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+
+          .icon {
+            font-size: 17px;
+            margin-right: 15px;
+          }
+        }
+      }
+      .addtowishlist {
+        margin-top: 20px;
+
+        .one {
+          button {
+            background-color: white;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 12px;
+            color: blueviolet;
+            .icon {
+              margin-right: 7px;
+              color: blueviolet;
+              font-size: 17px;
+            }
+          }
+        }
+      }
+    }
+    .last {
+      width: 100%;
+      height: 40%;
+      //border: 2px solid blue;
+
+      .one {
+        width: 100%;
+        height: 40%;
+        // padding-bottom: 10px;
+        border-bottom: 1px solid gray;
+        display: flex;
+        flex-direction: column;
+        //    justify-content: center;
+
+        span {
+          font-size: 14px;
+          color: gray;
+          margin-bottom: 5px;
+        }
+      }
+      .two {
+        width: 100%;
+        height: 50%;
+        margin-top: 20px;
+        span {
+          font-size: 14px;
+          color: gray;
+        }
+        hr {
+          margin-top: 5px;
+        }
+
+        //  padding-bottom: 10px;
+      }
+    }
+  }
+}

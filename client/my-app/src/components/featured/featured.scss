@@ -1,0 +1,49 @@
+.featuredcontainer {
+  width: 100%;
+  height: 450px;
+  padding: 0px 50px;
+  // border: 2px solid black;
+  margin-top: 90px;
+  margin-bottom: 70px;
+
+  .featured {
+    position: relative;
+    left: 80px;
+    width: 80%;
+    height: 100%;
+    //  border: 2px solid black;
+
+    .top {
+      width: 100%;
+      height: 70px;
+      position: relative;
+      //  border: 2px solid red;
+      margin-bottom: 20px;
+
+      h2 {
+        position: absolute;
+        left: 10px;
+        bottom: 35%;
+      }
+
+      .para {
+        position: absolute;
+        right: 0px;
+        width: 50%;
+
+        p {
+          font-size: 12px;
+          color: gray;
+        }
+      }
+    }
+    .bottom {
+      margin-top: 30px;
+      //   border: 2px solid blue;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+
+      padding: 0px 130px;
+    }
+  }
+}

@@ -1,0 +1,111 @@
+.product {
+  width: 99.6%;
+  height: 100%;
+  // border: 2px solid black;
+  position: relative;
+  top: 50px;
+  //overflow: hidden;
+  margin-bottom: 100px;
+
+  .wrapper1 {
+    padding: 20px 50px;
+    height: 100%;
+    width: 92.4%;
+    display: flex;
+    //  border: 2px solid brown;
+    margin-bottom: 20px;
+
+    .left {
+      width: 25%;
+      height: 100%;
+      //    border: 2px solid red;
+
+      .category {
+        margin-bottom: 20px;
+        h2 {
+          font-size: 15px;
+          margin: 3px 0px;
+          font-weight: 500;
+        }
+        label {
+          font-size: 12px;
+          position: relative;
+          bottom: 2px;
+          margin-left: 10px;
+        }
+        span {
+          margin: 5px;
+          font-size: 14px;
+          position: relative;
+          bottom: 2px;
+        }
+      }
+      .filter {
+        margin-bottom: 20px;
+
+        h2 {
+          font-size: 15px;
+          margin: 3px 0px;
+          font-weight: 500;
+        }
+        label {
+          font-size: 12px;
+          position: relative;
+          bottom: 2px;
+          margin-left: 10px;
+        }
+        span {
+          margin: 5px;
+          font-size: 14px;
+          position: relative;
+          bottom: 2px;
+        }
+      }
+      .sort {
+        h2 {
+          font-size: 15px;
+          margin: 3px 0px;
+          font-weight: 500;
+
+          span {
+            margin: 5px;
+            font-size: 14px;
+            position: relative;
+            // bottom: 2px;
+            color: rgb(208, 21, 21);
+          }
+        }
+        label {
+          font-size: 12px;
+          position: relative;
+          bottom: 2px;
+          margin-left: 10px;
+        }
+      }
+    }
+    .right {
+      width: 75%;
+      height: 100%;
+      //  border: 2px solid blue;
+      padding: 10px 20px;
+
+      .list1 {
+        height: auto;
+        width: 100%;
+        margin-bottom: 50px;
+      }
+
+      .image1 {
+        width: 100%;
+        height: 250px;
+        margin-bottom: 50px;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
